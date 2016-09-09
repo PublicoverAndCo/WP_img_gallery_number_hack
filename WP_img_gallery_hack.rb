@@ -1,11 +1,7 @@
 puts "Give me the first number."
-first_num = gets.chomp
+first_num = gets.to_i
 puts "Good. Give me the second number."
-second_num = gets.chomp
-
-first_num = first_num.to_i
-second_num = second_num.to_i
-num_array = Array.new
+second_num = gets.to_i
 
 num_array = (first_num..second_num).to_a
 
